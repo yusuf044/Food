@@ -4,7 +4,7 @@ import Routes from './src/routes';
 
 const App = () => {
   return (
-    <View style={{flex: 1, alignItems: 'center'}}>
+    <View style={{flex: 1}}>
       <Routes />
     </View>
   );

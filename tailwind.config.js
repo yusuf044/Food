@@ -1,9 +1,24 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['screens', 'components'],
-
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+// module.exports = {
+//   content: [
+//     './App.{js,jsx,ts,tsx}',
+//     './screens/**/*.{js,jsx,ts,tsx}',
+//     './components/**/*.{js,jsx,ts,tsx}',
+//   ],
+//   theme: {
+//     extend: {
+//       colors: {
+//         'off-white': {
+//           DEFAULT: '#E3E3E3',
+//         },
+//         dark: {
+//           DEFAULT: '#1C1C1E',
+//         },
+//         'soft-dark': {
+//           DEFAULT: '#2A2A2F',
+//         },
+//       },
+//     },
+//   },
+//   plugins: [],
+//   corePlugins: require('tailwind-rn/unsupported-core-plugins'),
+// };
